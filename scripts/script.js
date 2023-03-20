@@ -15,7 +15,6 @@ function getRandomNumber() {
 // add eventlistener
 
 btnEl.addEventListener('click', function () {
-  console.log('hii');
   // creating randomNumber
   const randomNumber = getRandomNumber();
 

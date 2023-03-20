@@ -44,9 +44,11 @@ li {
 nav {
   width: 100%;
 
-  background-color: var(--clr-eagle-green);
-  height: 5rem;
+  background-color: #121111;
+  height: 6rem;
   color: #fffafa;
+  padding-top: 1rem;
+  padding-right: 3rem;
 }
 h4 {
   font-size: 1.25rem;
@@ -63,13 +65,17 @@ h4 {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   color: #fffafa;
   cursor: pointer;
+  text-transform: capitalize;
+  /* padding-right: 15px; */
 }
-.nav-links:hover {
-  color: var(--clr-granium-lake);
+.nav-links li {
+  border: 1px solid #fffafa;
+  padding: 10px 15px;
 }
+
 main {
   display: flex;
   flex-direction: column;

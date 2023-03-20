@@ -23,6 +23,4 @@ btnEl.addEventListener('click', function () {
   }
   color.textContent = hexColor;
   document.body.style.backgroundColor = hexColor;
-
-  // color.textContent = colors[randomNumber];
 });
